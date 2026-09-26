@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:background="#FFFFFF"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:padding="8dp" android:orientation="horizontal"
+        android:layout_width="match_parent" android:layout_height="56dp">
+        <EditText android:id="@+id/address" android:hint="Search or enter address"
+            android:singleLine="true" android:layout_weight="1"
+            android:layout_width="0dp" android:layout_height="match_parent"/>
+        <Button android:id="@+id/go" android:text="Go"
+            android:layout_width="64dp" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <WebView android:id="@+id/webView"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>
