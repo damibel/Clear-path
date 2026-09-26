@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ClearPath</string>
+    <string name="accessibility_description">ClearPath protection service used to enforce the apps the user has chosen to restrict.</string>
+</resources>
