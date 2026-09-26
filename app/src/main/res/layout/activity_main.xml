@@ -1,0 +1,40 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="24dp" android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:text="ClearPath" android:textSize="30sp" android:textStyle="bold"
+            android:textColor="#17211D" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:text="Stay in control of your digital space."
+            android:textSize="16sp" android:textColor="#66716C"
+            android:layout_marginTop="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/statusText" android:text="Protection is active"
+            android:textSize="18sp" android:textStyle="bold" android:textColor="#245B4A"
+            android:layout_marginTop="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/protectNow" android:text="Protect me now"
+            android:layout_marginTop="16dp" android:layout_width="match_parent" android:layout_height="52dp"/>
+
+        <TextView android:text="Protection"
+            android:textSize="20sp" android:textStyle="bold" android:textColor="#17211D"
+            android:layout_marginTop="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <Switch android:id="@+id/appProtection" android:text="App protection"
+            android:checked="true" android:layout_width="match_parent" android:layout_height="52dp"/>
+        <Switch android:id="@+id/safeBrowser" android:text="Safe browser"
+            android:checked="true" android:layout_width="match_parent" android:layout_height="52dp"/>
+
+        <Button android:id="@+id/openBrowser" android:text="Open protected browser"
+            android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="52dp"/>
+
+        <Button android:id="@+id/accessibilitySettings" android:text="Set up app protection"
+            android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="52dp"/>
+
+        <TextView android:text="Blocked apps are configured in the next build."
+            android:textSize="14sp" android:textColor="#66716C"
+            android:layout_marginTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
